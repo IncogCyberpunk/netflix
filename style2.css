@@ -1,0 +1,165 @@
+*{
+    font-family: sans-serif;
+}
+.div1,.div2,.div4{
+    height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.div4 > div{
+    width: 480px; 
+    height: 350px;
+}
+ .div2 > div{
+    width: 480px; 
+    height: 350px;
+}
+
+.div3 > div{
+    width: 420px;
+    height: 350px;
+}
+
+.div2,.div3,.div4{
+    margin: 10px 0;
+}
+
+.div1{
+    margin-top: -68px;
+}
+
+.enjoy-div,.div2 > div:nth-child(2), .div4> div:nth-child(2){
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px 0;
+}
+
+ .enjoy-div p:first-child,
+ .div2 > div:nth-child(2) p:first-child,
+  .div3 > div p:nth-child(1),
+  .div4 > div:nth-child(2) p:first-child
+  {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.enjoy-div p:nth-child(2),
+.div3 div p:nth-child(2),
+.div4 > div:nth-child(2) p:nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+.tv-div{
+    overflow: clip; 
+    position:relative;
+    max-width: 500px;
+    max-height: 75vh;
+
+}
+.tv-div img{
+  width: 500px;
+  height: 100%;
+  position: relative;
+  z-index: 15;
+}
+
+.video{
+    position: absolute;
+    width: 365px;
+    height: 200px;
+    top: 78px;
+    left: 64px;
+    z-index: 14;
+    overflow: clip;
+}
+
+.video video{
+    width: 100%;
+}
+
+.div2 >div:first-child {
+    position: relative;
+}
+
+
+.div2 div img{
+    width: 100%;
+    height: 100%;
+}
+
+.stranger{
+    background-color: black;
+    border: 2px solid rgb(90,90,90);
+    border-radius: 9px;
+    position: absolute;
+    bottom: 20px;
+    left: 105px;
+    width: 270px;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+    padding-top: 10px;
+    padding-left : 7px;
+}
+
+.stranger-things{
+    width: 90%;
+    height: 90%;
+}
+
+.stranger div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.stranger div:nth-child(2) p:nth-child(2){
+    color:rgb(0, 113, 235);
+    font-size: 14px;
+}
+
+.stranger-progress{
+    background: url(assets/gif/progress.gif) center center;
+    width: 40px;
+    transform: scale(0.45);
+}
+
+
+
+
+.div3{
+    height: 65vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.div3 >div{
+    display:flex;
+    flex-direction: column;
+    gap: 10px 0;
+    justify-content: center;
+    margin-left: 19vw;
+    color: white;
+    
+}
+
+
+.div4 div:first-child img{
+    width: 100%;
+}
+
+
+
+
+
