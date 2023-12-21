@@ -85,7 +85,11 @@ footer{
     gap: 20px 0;
 }
 
-
+@media only screen and (max-width: 500px){
+    .footer-div ul{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 .footer-div  a,.footer-div p{
     color: rgb(179,179,179);
